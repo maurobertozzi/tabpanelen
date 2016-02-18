@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+.knoppen {
+    overflow: hidden;
+}
+
+.knoppen li {
+    list-style-type: none;
+    float: left;
+}
+
+.knoppen li.actief {
+    background-color: orange;
+}
+
+.paneel {
+/*    display: none;*/
+}
+
+.paneel.actief {
+    display: block !important;
+}
+
+.paneel img {
+    max-width: 100%;
+}
+
+.nav
+{
+
+}
+
+.knoppen
+{
+background-color: blueviolet;
+}
+
+ ul{
+margin: 0;
+padding 0;
+list-style-type: none;
+background-color: darkgreen;
+}
+
+li{
+float: left;
+}
+
+li a{
+display: inline-block;
+color: aliceblue;
+padding: 12px 14px;
+text-decoration: none;
+}
+
+li a:hover{
+background-color: orange;
+}
+
+footer{
+background-color: blueviolet;
+color: aliceblue;
+}
